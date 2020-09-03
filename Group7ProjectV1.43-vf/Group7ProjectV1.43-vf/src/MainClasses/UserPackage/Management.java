@@ -1,0 +1,29 @@
+package MainClasses.UserPackage;
+
+import java.io.File;
+import java.time.Duration;
+import java.util.ArrayList;
+
+public class Management extends Employee{
+
+    public Management(Integer salary, EmployeeDepartment employeeDepartment,
+            String cv, String photo, String name, String encryptedPassword, String email, char gender, String phoneNumber) {
+        
+        super(salary, employeeDepartment, cv, photo, name, encryptedPassword, email, gender, phoneNumber);
+    }
+
+    public Management() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+//    private ArrayList< Employee> employeeList;
+
+    //+checkPassword(){…};
+    void sendSalary(){}
+    private void ManageEmployee(){}
+    void showEmployeeList(){}
+    void recruitAvailability(){}
+    void showReport(){}
+    void manageStore(){}
+
+}
